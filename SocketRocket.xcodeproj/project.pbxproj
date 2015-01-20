@@ -15,6 +15,7 @@
 		83B541461A6DEBC800B6AF4E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD3145122FC00C1D980 /* Security.framework */; };
 		83B541471A6DEBD200B6AF4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD51451231B00C1D980 /* CFNetwork.framework */; };
 		83B541481A6DEBE500B6AF4E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C41C95145F7C4700641356 /* libicucore.dylib */; };
+		83B5417F1A6DF39D00B6AF4E /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A12CCF145119B700C1D980 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6016C8814620EC70037BB3D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD3145122FC00C1D980 /* Security.framework */; };
 		F6016C8914620ECC0037BB3D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD3145122FC00C1D980 /* Security.framework */; };
 		F6016C8A1462143C0037BB3D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD51451231B00C1D980 /* CFNetwork.framework */; };
@@ -356,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B541291A6DEB5D00B6AF4E /* SocketRocketIOS.h in Headers */,
+				83B5417F1A6DF39D00B6AF4E /* SRWebSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,6 +974,7 @@
 				83B5413E1A6DEB5D00B6AF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F62417FC14D52F3C003CE997 /* Build configuration list for PBXNativeTarget "TestChat" */ = {
 			isa = XCConfigurationList;
