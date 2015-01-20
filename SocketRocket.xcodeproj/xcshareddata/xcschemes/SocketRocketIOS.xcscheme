@@ -14,23 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F62417E214D52F3C003CE997"
-               BuildableName = "TestChat.app"
-               BlueprintName = "TestChat"
+               BlueprintIdentifier = "83B541231A6DEB5D00B6AF4E"
+               BuildableName = "SocketRocketIOS.framework"
+               BlueprintName = "SocketRocketIOS"
                ReferencedContainer = "container:SocketRocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83B5412D1A6DEB5D00B6AF4E"
-               BuildableName = "SocketRocketIOSTests.xctest"
-               BlueprintName = "SocketRocketIOSTests"
+               BlueprintIdentifier = "F6BDA801145900D200FE3253"
+               BuildableName = "SRWebSocketTests.octest"
+               BlueprintName = "SRWebSocketTests"
                ReferencedContainer = "container:SocketRocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -38,27 +38,17 @@
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83B5412D1A6DEB5D00B6AF4E"
-               BuildableName = "SocketRocketIOSTests.xctest"
-               BlueprintName = "SocketRocketIOSTests"
-               ReferencedContainer = "container:SocketRocket.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F62417E214D52F3C003CE997"
-            BuildableName = "TestChat.app"
-            BlueprintName = "TestChat"
+            BlueprintIdentifier = "83B541231A6DEB5D00B6AF4E"
+            BuildableName = "SocketRocketIOS.framework"
+            BlueprintName = "SocketRocketIOS"
             ReferencedContainer = "container:SocketRocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,36 +62,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F62417E214D52F3C003CE997"
-            BuildableName = "TestChat.app"
-            BlueprintName = "TestChat"
+            BlueprintIdentifier = "83B541231A6DEB5D00B6AF4E"
+            BuildableName = "SocketRocketIOS.framework"
+            BlueprintName = "SocketRocketIOS"
             ReferencedContainer = "container:SocketRocket.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
-         <AdditionalOption
-            key = "NSZombieEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "OBJC_PRINT_EXCEPTIONS"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "MallocGuardEdges"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
-         <AdditionalOption
-            key = "MallocScribble"
-            value = ""
-            isEnabled = "YES">
-         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -110,15 +80,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F62417E214D52F3C003CE997"
-            BuildableName = "TestChat.app"
-            BlueprintName = "TestChat"
+            BlueprintIdentifier = "83B541231A6DEB5D00B6AF4E"
+            BuildableName = "SocketRocketIOS.framework"
+            BlueprintName = "SocketRocketIOS"
             ReferencedContainer = "container:SocketRocket.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
