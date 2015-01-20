@@ -6,8 +6,6 @@
 //
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for SocketRocketIOS.
 FOUNDATION_EXPORT double SocketRocketIOSVersionNumber;
 
